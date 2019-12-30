@@ -1,0 +1,19 @@
+{
+    "name": "digitalsdy",
+    "version": "0.0.1",
+    "description": "Digital SDY client",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "author": "Ris3TwO",
+    "license": "ISC",
+    "devDependencies": {
+        "electron": "^7.1.7"
+    },
+    "dependencies": {
+        "@mdi/font": "^4.7.95",
+        "bootstrap": "^4.4.1",
+        "jquery": "^3.4.1"
+    }
+}
