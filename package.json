@@ -1,7 +1,7 @@
 {
     "name": "digitalsdy",
     "version": "0.0.1",
-    "description": "Digital SDY client",
+    "description": "Cliente de escritorio de Digital SDY",
     "main": "main.js",
     "scripts": {
         "start": "electron .",
@@ -26,7 +26,7 @@
     "build": {
         "appId": "digitalsdy",
         "mac": {
-            "category": "your.app.category.type"
+            "category": "eficiencia"
         },
         "productName": "Digital SDY",
         "copyright": "Copyright © 2020 ${author}",
