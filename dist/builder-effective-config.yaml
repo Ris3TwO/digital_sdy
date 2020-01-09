@@ -1,0 +1,11 @@
+directories:
+  output: dist
+  buildResources: build
+appId: digitalsdy
+mac:
+  category: your.app.category.type
+productName: Digital SDY
+copyright: 'Copyright © 2020 ${author}'
+win:
+  target: portable
+electronVersion: 7.1.7

@@ -4,16 +4,34 @@
     "description": "Digital SDY client",
     "main": "main.js",
     "scripts": {
-        "start": "electron ."
+        "start": "electron .",
+        "pack": "electron-builder --dir",
+        "dist": "electron-builder",
+        "postinstall": "electron-builder install-app-deps"
     },
-    "author": "Ris3TwO",
+    "author": {
+        "name": "Ris3TwO",
+        "email": "ris3two@gmail.com"
+    },
     "license": "ISC",
     "devDependencies": {
-        "electron": "^7.1.7"
+        "electron": "^7.1.7",
+        "electron-builder": "^21.2.0"
     },
     "dependencies": {
         "@mdi/font": "^4.7.95",
         "bootstrap": "^4.4.1",
         "jquery": "^3.4.1"
+    },
+    "build": {
+        "appId": "digitalsdy",
+        "mac": {
+            "category": "your.app.category.type"
+        },
+        "productName": "Digital SDY",
+        "copyright": "Copyright © 2020 ${author}",
+        "win": {
+            "target": "portable"
+        }
     }
 }
